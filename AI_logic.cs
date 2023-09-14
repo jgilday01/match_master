@@ -13,10 +13,10 @@ public class AI_logic : MonoBehaviour
 
         List<GameObject> player1GamePiece = new List<GameObject>(); //player1 pieces
         List<GameObject> player2GamePiece = new List<GameObject>(); //player2 pieces
-        List<GameObject> playFieldGamePiece = new List<GameObject>(); //playfieild (playfield1)
-        List<GameObject> oldPieceGamePiece = new List<GameObject>(); //old peice (playfield2)
+        List<GameObject> playFieldGamePiece = new List<GameObject>(); //playfield (playfield1)
+        List<GameObject> oldPieceGamePiece = new List<GameObject>(); //old piece (playfield2)
         List<GameObject> player2MovePiece = new List<GameObject>(); //player piece selection
-        List<GameObject> playfieldMovePiece = new List<GameObject>(); //playfield position
+        List<GameObject> playfieldMovePiece = new List<GameObject>(); //play-field position
 
         for (int gamePiece = 0; gamePiece < gamePieceList.Length; gamePiece++)
         {
